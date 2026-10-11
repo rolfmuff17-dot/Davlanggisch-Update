@@ -7,14 +7,36 @@
         <language>de</language>
         
         <item>
+            <title>Davlanggisch Version 1.2.0</title>
+            <description><![CDATA[
+                <h2>Neuheiten in Davlanggisch 1.2.0:</h2>
+                <ul>
+                    <li><strong>Neues modernes Übersetzer-Logo:</strong> Minimalistisches, edles Icon im perfekten Apple-Format (Sprechblasen-Monogramm, optimale Dock-Größe).</li>
+                    <li><strong>Design-Vorschauen:</strong> Echte Miniatur-Oberflächenansichten für die Themes.</li>
+                    <li><strong>Fehlerbehebungen:</strong> Einstellungen zurücksetzen, Offline-Wörterbuch herunterladen/löschen und Verlauf leeren funktionieren jetzt zuverlässig.</li>
+                    <li><strong>Professionelles Design:</strong> Alle bunten Emojis durch dezente, professionelle UI-Symbole ersetzt.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 11 Oct 2026 22:21:26 +0200</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.2.0/Davlanggisch-1.2.0.dmg"
+                length="2933390"
+                type="application/x-apple-diskimage"
+                sparkle:edSignature="sfgGm2/hS2Jidke6MJvafGMAJU/pbm2iSiFQt9U4TaILD3fpkAS/ZvSAXXw6FuwGcXG2muLkZoN/1uK5+uaFDQ==" />
+        </item>
+
+        <item>
             <title>Davlanggisch Version 1.1.0</title>
             <description><![CDATA[
                 <h2>Neuheiten in Davlanggisch 1.1.0:</h2>
                 <ul>
-                    <li><strong>Neues Apple-Design-Icon:</strong> Echtes macOS Squircle-Format mit feinen Rundungen und ohne störende Ecken oder Schreibtisch-Hintergründe.</li>
-                    <li><strong>Offline-Wörterbuch:</strong> Das gesamte Wörterbuch kann nun in den Einstellungen heruntergeladen und vollständig offline ohne Internetverbindung genutzt werden.</li>
-                    <li><strong>Offline-Konto &amp; Profil:</strong> Bereits angemeldete Benutzer bleiben auch offline eingeloggt (Name, Profilbild und Werbefreiheit bleiben aktiv).</li>
-                    <li><strong>Admin-Zugriff &amp; E-Mail-Fix:</strong> E-Mail-Adresse von Nolan Muff wird jetzt direkt angezeigt mit 1-Klick-Kopierfunktion und nativer Mail-Programm-Verknüpfung.</li>
+                    <li>Neues Apple-Design-Icon.</li>
+                    <li>Offline-Wörterbuch in den Einstellungen.</li>
+                    <li>Offline-Konto &amp; Profilbild-Speicherung.</li>
+                    <li>Admin-Zugriff &amp; E-Mail-Fix.</li>
                 </ul>
             ]]></description>
             <pubDate>Sun, 11 Oct 2026 21:03:46 +0200</pubDate>
@@ -31,12 +53,9 @@
         <item>
             <title>Davlanggisch Version 1.0.0</title>
             <description><![CDATA[
-                <h2>Neuheiten in Davlanggisch:</h2>
+                <h2>Neuheiten in Davlanggisch 1.0.0:</h2>
                 <ul>
-                    <li>Erste native macOS-Applikation mit Sparkle-Autoupdates!</li>
-                    <li>Vollständige Unterstützung für alle Designs (Hell, Dunkel, Kontrast, Neon &amp; eigene Farben).</li>
-                    <li>Live-Wörterbuch-Anbindung an das GitHub Gist.</li>
-                    <li>Integrierte Sprachausgabe für Deutsch und Davlanggisch.</li>
+                    <li>Erste native macOS-Applikation.</li>
                 </ul>
             ]]></description>
             <pubDate>Sun, 11 Oct 2026 13:58:16 +0200</pubDate>
