@@ -6,21 +6,35 @@
         <description>Neueste Updates und Wörterbuch-Erweiterungen für Davlanggisch macOS.</description>
         <language>de</language>
 
+        <!-- Version 1.5.0 -->
+        <item>
+            <title>Davlanggisch Version 1.5.0</title>
+            <description><![CDATA[
+                <h2>Neuheiten &amp; Verbesserungen in Version 1.5.0 (Build 10):</h2>
+                <ul>
+                    <li><strong>Google Multi-App Workspace (Vollbild):</strong> Alle Applikationen (Übersetzer, Kaya KI, Davlinggo, Rechner) laufen jetzt im beeindruckenden Vollbildmodus mit einheitlicher Google-Kopfzeile, 9-Punkte-Waffle-Menü und 3-Striche-Seitenleiste.</li>
+                    <li><strong>Google-Style Übersetzerleiste:</strong> Saubere Sprachleiste mit zentriertem Tausch-Knopf (ohne Kreisrahmen) und dynamischer Spracherkennung, bei der die Zielsprache flexibel bleibt, bis Text eingegeben wird.</li>
+                    <li><strong>Bereinigte Hauptseite:</strong> Vollständig bereinigte Unterseite unter dem Übersetzungsfeld ohne störende Design-Elemente (zentrierte runde Knöpfe für Verlauf und Favoriten wie bei Google Übersetzer).</li>
+                    <li><strong>Vollständige Gäste-Anonymität:</strong> Ohne Anmeldung sind E-Mails, Namen und Admin-Daten vollständig anonymisiert und geschützt.</li>
+                    <li><strong>Erweitertes Design-Studio:</strong> Über 7 neue anpassbare Design-Eigenschaften (Schriftarten, Textgrößen, Schatten/Tiefe, Rahmenstärken, Eingabe-/Ausgabeflächen, Glassmorphismus) mit Speichern und Zurücksetzen.</li>
+                    <li><strong>Diskreter Kaya KI-Assistent:</strong> Kaya nennt Teammitglieder ausschließlich dann, wenn explizit danach gefragt wird.</li>
+                    <li><strong>Erweiterte Datenschutz- &amp; Nutzungsbedingungen:</strong> Zehn ausführliche juristische Abschnitte zu Urheberrecht, KI-Nutzung, Datenschutz und Werbefreiheit.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 18 Oct 2026 20:23:35 +0200</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.5.0/Davlanggisch-1.5.0.dmg"
+                length="2851654"
+                type="application/x-apple-diskimage"
+                sparkle:edSignature="jClGPSMJQu+8SXex6gGs9eqQzmClxW6qzvKcyhImijZzcqCBFSAbJ5PbwncPHbnvhy3Bkp6aneoGYG3DpZEbAA==" />
+        </item>
+
         <!-- Version 1.4.0 -->
         <item>
             <title>Davlanggisch Version 1.4.0</title>
-            <description><![CDATA[
-                <h2>Neuheiten &amp; Verbesserungen in Version 1.4.0 (Build 9):</h2>
-                <ul>
-                    <li><strong>Google Translate Seitenleiste (Drawer):</strong> 3-Striche-Menü oben links mit Schnellzugriff auf Übersetzer, Über Davlanggisch (mit Schöpfer-Team) und ausführlichen Datenschutz &amp; Nutzungsbedingungen.</li>
-                    <li><strong>9-Punkte App-Menü (Waffle Launcher):</strong> Zugriff auf <em>Kaya KI</em>, <em>Davlanggisch Rechner</em> (Zahlenrechner mit Live-Wortübersetzung &amp; Aussprache) und <em>Davlinggo</em> (Gamifiziertes Vokabel-Lernspiel mit XP &amp; Streaks).</li>
-                    <li><strong>Sprache automatisch erkennen:</strong> Echtzeit-Erkennung von Deutsch und Davlanggisch mit automatischer Sprachrichtungsumschaltung.</li>
-                    <li><strong>Kaya Bildgenerierung &amp; Vision-Training:</strong> Echte prozedurale Canvas-Bilderstellung sowie interaktives Bild-Erkennungs- und Vokabel-Trainingsspiel.</li>
-                    <li><strong>Erweitertes Design Studio &amp; Aufräumen:</strong> Individuelle Farb-Paletten, Layout-Anpassung, Speichern und Zurücksetzen in aufgeräumten Einstellungen.</li>
-                    <li><strong>Berechtigungs-Schutz für Gäste:</strong> Kaya KI, Autoren-Einblicke und Design Studio sind geschützt für angemeldete Nutzer mit sofortigem Login-Hinweis.</li>
-                    <li><strong>Optimiertes Vollbild-Layout:</strong> Modernes 2-Spalten-Design ohne Leerflächen im Vollbildmodus und runde Google-Translate-Buttons für Verlauf &amp; Favoriten.</li>
-                </ul>
-            ]]></description>
             <pubDate>Sun, 18 Oct 2026 16:56:14 +0200</pubDate>
             <sparkle:version>9</sparkle:version>
             <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
@@ -35,16 +49,6 @@
         <!-- Version 1.3.4 -->
         <item>
             <title>Davlanggisch Version 1.3.4</title>
-            <description><![CDATA[
-                <h2>Neuheiten &amp; Verbesserungen in Version 1.3.4:</h2>
-                <ul>
-                    <li><strong>Aufgeräumte Menüs:</strong> Einstellungen und Verlauf sind im oberen Header bei angemeldetem Konto ausgeblendet.</li>
-                    <li><strong>Kaya KI – Multimodale Bildanalyse (Vision):</strong> Schicke Kaya Bilder über das Kamera-Symbol, Drag &amp; Drop oder Cmd+V.</li>
-                    <li><strong>Kaya KI – Bildgenerierung:</strong> Kaya zeichnet und generiert neue Bilder.</li>
-                    <li><strong>Kaya KI – Geschichten-Synthese:</strong> Dynamische Geschichten basierend auf Mythen und Davlanggisch-Vokabeln.</li>
-                    <li><strong>Kaya KI – Python-Programmierung:</strong> Kaya programmiert vollständige Python-Skripte mit Highlighting.</li>
-                </ul>
-            ]]></description>
             <pubDate>Mon, 12 Oct 2026 22:18:11 +0200</pubDate>
             <sparkle:version>8</sparkle:version>
             <sparkle:shortVersionString>1.3.4</sparkle:shortVersionString>
