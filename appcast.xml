@@ -1,156 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <channel>
-        <title>Davlanggisch – Software Updates</title>
-        <link>https://github.com/rolfmuff17-dot/Davlanggisch-Update</link>
-        <description>Neueste Updates und Wörterbuch-Erweiterungen für Davlanggisch macOS.</description>
-        <language>de</language>
-
-        <!-- Version 1.5.0 -->
+        <!-- Version 1.5.1 -->
         <item>
-            <title>Davlanggisch Version 1.5.0</title>
+            <title>Davlanggisch Version 1.5.1</title>
             <description><![CDATA[
-                <h2>Neuheiten &amp; Verbesserungen in Version 1.5.0 (Build 10):</h2>
+                <h2>Neuheiten &amp; Verbesserungen in Version 1.5.1 (Build 11):</h2>
                 <ul>
-                    <li><strong>Google Multi-App Workspace (Vollbild):</strong> Alle Applikationen (Übersetzer, Kaya KI, Davlinggo, Rechner) laufen jetzt im beeindruckenden Vollbildmodus mit einheitlicher Google-Kopfzeile, 9-Punkte-Waffle-Menü und 3-Striche-Seitenleiste.</li>
-                    <li><strong>Google-Style Übersetzerleiste:</strong> Saubere Sprachleiste mit zentriertem Tausch-Knopf (ohne Kreisrahmen) und dynamischer Spracherkennung, bei der die Zielsprache flexibel bleibt, bis Text eingegeben wird.</li>
-                    <li><strong>Bereinigte Hauptseite:</strong> Vollständig bereinigte Unterseite unter dem Übersetzungsfeld ohne störende Design-Elemente (zentrierte runde Knöpfe für Verlauf und Favoriten wie bei Google Übersetzer).</li>
-                    <li><strong>Vollständige Gäste-Anonymität:</strong> Ohne Anmeldung sind E-Mails, Namen und Admin-Daten vollständig anonymisiert und geschützt.</li>
-                    <li><strong>Erweitertes Design-Studio:</strong> Über 7 neue anpassbare Design-Eigenschaften (Schriftarten, Textgrößen, Schatten/Tiefe, Rahmenstärken, Eingabe-/Ausgabeflächen, Glassmorphismus) mit Speichern und Zurücksetzen.</li>
-                    <li><strong>Diskreter Kaya KI-Assistent:</strong> Kaya nennt Teammitglieder ausschließlich dann, wenn explizit danach gefragt wird.</li>
-                    <li><strong>Erweiterte Datenschutz- &amp; Nutzungsbedingungen:</strong> Zehn ausführliche juristische Abschnitte zu Urheberrecht, KI-Nutzung, Datenschutz und Werbefreiheit.</li>
+                    <li><strong>Brandneues App-Logo:</strong> Frisches, modernes Translator-Icon im eleganten macOS-Squircle mit transluzenten Sprachkarten (A &harr; &ETH;), das auf den ersten Blick klar als moderner Übersetzer erkennbar ist.</li>
+                    <li><strong>Vollständige Fehlerbehebung &amp; Stabilität:</strong> Alle Knöpfe, die Anmeldung, Bestätigungs-Dialoge und Sprachen-Tausch-Funktionen wurden bis ins letzte Detail optimiert und laufen fehlerfrei.</li>
+                    <li><strong>Google Multi-App Workspace (Vollbild):</strong> Nahtlose Vollbild-Arbeitsbereiche für Übersetzer, Kaya KI, Davlinggo und Rechner mit einheitlicher Kopfzeile und 9-Punkte-Waffle-Menü.</li>
+                    <li><strong>Google-Style Übersetzerleiste:</strong> Saubere Sprachleiste mit zentriertem Tausch-Knopf (ohne Kreisrahmen) und dynamischer Spracherkennung.</li>
+                    <li><strong>Aufgeräumte Unterseite:</strong> Keine störenden Einstellungen beim Scrollen – nur noch die zentrierten Runden Knöpfe für Verlauf und Gespeichert.</li>
+                    <li><strong>Erweitertes Design-Studio:</strong> Über 7 neue Design-Optionen (Schriftarten, Schatten, Rahmen, Glas-Effekt) mit funktionierendem Speichern und Zurücksetzen.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sun, 18 Oct 2026 20:23:35 +0200</pubDate>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <pubDate>Sun, 18 Oct 2026 21:22:35 +0200</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.5.0/Davlanggisch-1.5.0.dmg"
-                length="2851654"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.5.1/Davlanggisch-1.5.1.dmg"
+                length="3074623"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="jClGPSMJQu+8SXex6gGs9eqQzmClxW6qzvKcyhImijZzcqCBFSAbJ5PbwncPHbnvhy3Bkp6aneoGYG3DpZEbAA==" />
+                sparkle:edSignature="uT3FxqbkSfFV0NcO26FBQIWNfQADjFSshVTQUffMXIqEwuYAfU1xWDsG2rnzMP+D9M7A+kgc0JoUPzUCvWwODw==" />
         </item>
-
-        <!-- Version 1.4.0 -->
-        <item>
-            <title>Davlanggisch Version 1.4.0</title>
-            <pubDate>Sun, 18 Oct 2026 16:56:14 +0200</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.4.0/Davlanggisch-1.4.0.dmg"
-                length="3062134"
-                type="application/x-apple-diskimage"
-                sparkle:edSignature="Jof6R0AmpU8K+P55ZaiuFEEiiPK3fL+4gv/NeyEOQPUusSWNyWFbZ0QomcuCvNDXP8Y8hzS0cgXnMdQILkDODQ==" />
-        </item>
-
-        <!-- Version 1.3.4 -->
-        <item>
-            <title>Davlanggisch Version 1.3.4</title>
-            <pubDate>Mon, 12 Oct 2026 22:18:11 +0200</pubDate>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>1.3.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.3.4/Davlanggisch-1.3.4.dmg"
-                length="2834024"
-                type="application/x-apple-diskimage"
-                sparkle:edSignature="q58BkLoWWY+/S3UaMpG+a5movwFrNCNzmrRg0YIVilluyiHVcmkctBd3QhzHrtha/y7r7f5Scs4lyM6Vui1/Dw==" />
-        </item>
-
-        <!-- Version 1.3.3 -->
-        <item>
-            <title>Davlanggisch Version 1.3.3</title>
-            <pubDate>Mon, 12 Oct 2026 21:20:17 +0200</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.3.3/Davlanggisch-1.3.3.dmg"
-                length="2823621"
-                type="application/x-apple-diskimage"
-                sparkle:edSignature="255jZAH8e6ApOKzrk9cHguY+nrNTP2NzBGguOeoZfC84/BJWjzSo15KsLyaer9DDrB+6ruACMglFZyptaWWyDA==" />
-        </item>
-
-        <!-- Version 1.3.2 -->
-        <item>
-            <title>Davlanggisch Version 1.3.2</title>
-            <pubDate>Mon, 12 Oct 2026 16:15:35 +0200</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.3.2/Davlanggisch-1.3.2.dmg"
-                length="3105681"
-                type="application/x-apple-diskimage"
-                sparkle:edSignature="xfJo6rWW34qYjcHSY2wLzHwa3j0xEemJwkJ08JYvfzB2+q3Te5GAo+v+pWx4bItaLaF/aGx5romKG+Wh4MAWDA==" />
-        </item>
-
-        <item>
-            <title>Davlanggisch Version 1.3.1</title>
-            <pubDate>Mon, 12 Oct 2026 13:06:08 +0200</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.3.1/Davlanggisch-1.3.1.dmg"
-                length="3106849"
-                type="application/x-apple-diskimage"
-                sparkle:edSignature="xwrbPGfIk/q60tsguRB2mY8qZ9JjZn7GFIRqJioJADic/mSrqP5WXSclUzaPPEUOtIv7j9YLPR6WTiFjtIWBBQ==" />
-        </item>
-
-        <item>
-            <title>Davlanggisch Version 1.3.0</title>
-            <pubDate>Mon, 12 Oct 2026 11:35:30 +0200</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.3.0/Davlanggisch-1.3.0.dmg"
-                length="3112450"
-                type="application/x-apple-diskimage"
-                sparkle:edSignature="tE9vh3+8QjZ/m+fAsWoYnqRoZ2gu0l6x4AYocrA+9DuYdQE93sArDyVYUNnUMQ5uI0bLKwmSZtAZQVe7HSoHDw==" />
-        </item>
-
-        <item>
-            <title>Davlanggisch Version 1.2.0</title>
-            <pubDate>Sun, 11 Oct 2026 22:21:26 +0200</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.2.0/Davlanggisch-1.2.0.dmg"
-                length="2933390"
-                type="application/x-apple-diskimage"
-                sparkle:edSignature="sfgGm2/hS2Jidke6MJvafGMAJU/pbm2iSiFQt9U4TaILD3fpkAS/ZvSAXXw6FuwGcXG2muLkZoN/1uK5+uaFDQ==" />
-        </item>
-
-        <item>
-            <title>Davlanggisch Version 1.1.0</title>
-            <pubDate>Sun, 11 Oct 2026 21:03:46 +0200</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.1.0/Davlanggisch-1.1.0.dmg"
-                length="3831335"
-                type="application/x-apple-diskimage"
-                sparkle:edSignature="TvXCdFuQnalS1rCv1pQDguaTWuEf878SCaCzZS43eaU8DqrKPGSEtNDbpNrreAMiuqwslXVr1J487rYjzRXwCg==" />
-        </item>
-
-        <item>
-            <title>Davlanggisch Version 1.0.0</title>
-            <pubDate>Sun, 11 Oct 2026 13:58:16 +0200</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.0.0/Davlanggisch-1.0.0.dmg"
-                length="4223640"
-                type="application/x-apple-diskimage"
-                sparkle:edSignature="l+9l7rRUl403+p9KYM0El+pZnU4VWz3t5ORfBYD9xxQCkNAtdrUFxrrgOKhryd3cACTtbIfcqV85iuv7/mx3Cw==" />
-        </item>
-    </channel>
-</rss>
