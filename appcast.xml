@@ -1,24 +1,25 @@
-        <!-- Version 1.5.1 -->
+        <!-- Version 1.4.0 -->
         <item>
-            <title>Davlanggisch Version 1.5.1</title>
+            <title>Davlanggisch Version 1.4.0</title>
             <description><![CDATA[
-                <h2>Neuheiten &amp; Verbesserungen in Version 1.5.1 (Build 11):</h2>
+                <h2>Neuheiten &amp; Verbesserungen in Version 1.4.0 (Build 9):</h2>
                 <ul>
-                    <li><strong>Brandneues App-Logo:</strong> Frisches, modernes Translator-Icon im eleganten macOS-Squircle mit transluzenten Sprachkarten (A &harr; &ETH;), das auf den ersten Blick klar als moderner Übersetzer erkennbar ist.</li>
-                    <li><strong>Vollständige Fehlerbehebung &amp; Stabilität:</strong> Alle Knöpfe, die Anmeldung, Bestätigungs-Dialoge und Sprachen-Tausch-Funktionen wurden bis ins letzte Detail optimiert und laufen fehlerfrei.</li>
-                    <li><strong>Google Multi-App Workspace (Vollbild):</strong> Nahtlose Vollbild-Arbeitsbereiche für Übersetzer, Kaya KI, Davlinggo und Rechner mit einheitlicher Kopfzeile und 9-Punkte-Waffle-Menü.</li>
-                    <li><strong>Google-Style Übersetzerleiste:</strong> Saubere Sprachleiste mit zentriertem Tausch-Knopf (ohne Kreisrahmen) und dynamischer Spracherkennung.</li>
-                    <li><strong>Aufgeräumte Unterseite:</strong> Keine störenden Einstellungen beim Scrollen – nur noch die zentrierten Runden Knöpfe für Verlauf und Gespeichert.</li>
-                    <li><strong>Erweitertes Design-Studio:</strong> Über 7 neue Design-Optionen (Schriftarten, Schatten, Rahmen, Glas-Effekt) mit funktionierendem Speichern und Zurücksetzen.</li>
+                    <li><strong>Google Translate Seitenleiste (Drawer):</strong> 3-Striche-Menü oben links mit Schnellzugriff auf Übersetzer, Über Davlanggisch (mit Schöpfer-Team) und ausführlichen Datenschutz &amp; Nutzungsbedingungen.</li>
+                    <li><strong>9-Punkte App-Menü (Waffle Launcher):</strong> Zugriff auf <em>Kaya KI</em>, <em>Davlanggisch Rechner</em> (Zahlenrechner mit Live-Wortübersetzung &amp; Aussprache) und <em>Davlinggo</em> (Gamifiziertes Vokabel-Lernspiel mit XP &amp; Streaks).</li>
+                    <li><strong>Sprache automatisch erkennen:</strong> Echtzeit-Erkennung von Deutsch und Davlanggisch mit automatischer Sprachrichtungsumschaltung.</li>
+                    <li><strong>Kaya Bildgenerierung &amp; Vision-Training:</strong> Echte prozedurale Canvas-Bilderstellung sowie interaktives Bild-Erkennungs- und Vokabel-Trainingsspiel.</li>
+                    <li><strong>Erweitertes Design Studio &amp; Aufräumen:</strong> Individuelle Farb-Paletten, Layout-Anpassung, Speichern und Zurücksetzen in aufgeräumten Einstellungen.</li>
+                    <li><strong>Berechtigungs-Schutz für Gäste:</strong> Kaya KI, Autoren-Einblicke und Design Studio sind geschützt für angemeldete Nutzer mit sofortigem Login-Hinweis.</li>
+                    <li><strong>Optimiertes Vollbild-Layout:</strong> Modernes 2-Spalten-Design ohne Leerflächen im Vollbildmodus und runde Google-Translate-Buttons für Verlauf &amp; Favoriten.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sun, 18 Oct 2026 21:22:35 +0200</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
+            <pubDate>Sun, 18 Oct 2026 16:56:14 +0200</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.5.1/Davlanggisch-1.5.1.dmg"
-                length="3074623"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.4.0/Davlanggisch-1.4.0.dmg"
+                length="3062134"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="uT3FxqbkSfFV0NcO26FBQIWNfQADjFSshVTQUffMXIqEwuYAfU1xWDsG2rnzMP+D9M7A+kgc0JoUPzUCvWwODw==" />
+                sparkle:edSignature="Jof6R0AmpU8K+P55ZaiuFEEiiPK3fL+4gv/NeyEOQPUusSWNyWFbZ0QomcuCvNDXP8Y8hzS0cgXnMdQILkDODQ==" />
         </item>
