@@ -6,6 +6,31 @@
         <description>Neueste Updates und Wörterbuch-Erweiterungen für Davlanggisch macOS.</description>
         <language>de</language>
 
+                <!-- Version 1.5.1 -->
+        <item>
+            <title>Davlanggisch Version 1.5.1</title>
+            <description><![CDATA[
+                <h2>Neuheiten &amp; Architektur-Module in Version 1.5.1 (Build 12):</h2>
+                <ul>
+                    <li><strong>9-Punkte App-Launcher &amp; Profil-Menü immer im Vordergrund:</strong> Das 9-Punkte-Menü („Davlanggisch Apps“ mit Übersetzer, Kaya, Rechner und Davlinggo) sowie das Profil-Menü liegen nun auf oberster Ebene direkt im Document-Body (`z-index: 250000`) und werden nicht mehr von der Modus-Leiste oder den Übersetzer-Panels überdeckt.</li>
+                    <li><strong>Große Dateien (&gt; 1 GB), Speichereffizientes Disk-Streaming (8–16 MB Blöcke), 2 GB Speicher-Prüfung &amp; Zweistufiger Fortschrittsbalken:</strong> Dateien werden niemals komplett in den Arbeitsspeicher geladen, sondern asynchron in 12-MB-Blöcken in einen dedizierten Cache-Ordner gestreamt – inklusive vorheriger Prüfung des freien Festplattenspeichers (Dateigröße + 2 GB Sicherheitspuffer), Echtzeit-Fortschrittsanzeige (Phase 1: Disk-Streaming in MB/% | Phase 2: Batch-Verarbeitung) und automatischem Cleanup.</li>
+                    <li><strong>Layoutgetreue Office-Übersetzung (Word, Excel, PowerPoint) mit JSON-Batching (30–50 Einheiten) &amp; Gemini Files API Streaming:</strong> Tabellen, Zellstile, Folienformen und Absätze in `.docx`-, `.xlsx`- und `.pptx`-Dokumenten werden in 40er-Blöcken gebündelt übersetzt und anhand ihrer Indizes in-place zurückgeschrieben. Große Mediendateien werden über die Gemini Files API gestreamt statt als Base64 im Prompt übertragen.</li>
+                    <li><strong>Google Workspace Cloud-Export (Exklusiv für Google-Logins) &amp; Lokale macOS-Systemsteuerung:</strong> Nutzer, die über Google angemeldet sind, können Übersetzungen über das `provider_token` direkt als echtes Google Doc oder Google Sheet im eigenen Google Drive ablegen. Zusätzlich bietet die App direkte Finder-Steuerung (`Im Finder anzeigen`, `Datei direkt öffnen`, `Ausgabeordner auf Schreibtisch anlegen`), native macOS-Systembenachrichtigungen sowie Sicherheits-Leitplanken (Blockierung zerstörerischer Befehle &amp; Rückfrage vor dem Überschreiben lokaler Dateien).</li>
+                    <li><strong>Bildtext direkt im Bild entfernen &amp; überschreiben (Inpainting) + Deutscher Fallback für unbekannte Wörter:</strong> Beim Übersetzen von Bildern wird die Hintergrundfarbe um jede Textstelle gemessen, der Originaltext im Bild entfernt und direkt an derselben Stelle mit der Übersetzung überschrieben. Bei Bildern, Dokumenten und Websites gilt: Existiert ein Wort noch nicht im Davlanggisch-Wörterbuch, bleibt garantiert das <strong>deutsche Wort</strong> stehen.</li>
+                    <li><strong>Davlinggo Lernprogramm repariert + Auto-Lektionen, Überraschungs-Test, Ausklappbare Bildschirm-Tastatur (Ohne Emojis), 6 Gemini Live-Stimmen &amp; 18 Tastenkombinationen:</strong> Sanfte Animationen im gesamten System, ausklappbare Bildschirm-Tastatur über das Vektor-Tastatur-Symbol, direkte deutsche Google-Suche, Mikrofon-Spracheingabe bei jedem Eingabefeld, Einstellungs-Suchleiste sowie Kaya KI-Bildgenerierung mit lernfähigem Bild-Eintragungssystem und Konversations-Notfallsystem.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 28 Oct 2026 21:14:13 +0100</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.5.1/Davlanggisch-1.5.1.dmg"
+                length="3396932"
+                type="application/x-apple-diskimage"
+                sparkle:edSignature="hgYwLvU0MzHpH7LqPSwsfKl5YSPbbvUUqmvMcrd/u/LjYyjkNKWiMH33lJ61bsSNCOfuImcIU4Ic21M/KYzwBw==" />
+        </item>
+
         <!-- Version 1.5.0 -->
         <item>
             <title>Davlanggisch Version 1.5.0</title>
