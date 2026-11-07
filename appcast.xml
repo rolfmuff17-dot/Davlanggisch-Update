@@ -6,28 +6,29 @@
         <description>Neueste Updates und Wörterbuch-Erweiterungen für Davlanggisch macOS.</description>
         <language>de</language>
 
-        <!-- ==================== VERSION 1.6.1 (BUILD 16) ==================== -->
+        <!-- ==================== VERSION 1.6.1 (BUILD 17) ==================== -->
         <item>
             <title>Davlanggisch Version 1.6.1</title>
             <description><![CDATA[
-                <h2>Neuheiten &amp; Fehlerbehebungen in Davlanggisch 1.6.1 (Build 16):</h2>
+                <h2>Neuheiten &amp; Fehlerbehebungen in Davlanggisch 1.6.1 (Build 17):</h2>
                 <ul>
-                    <li><strong>Sprachauswahl mit Chevron-Pfeil (2-Tab-System):</strong> Die bisherige Schaltfläche „Weitere Sprachen…“ wurde durch ein aufgeräumtes 2-Tab-System mit rotierendem Pfeil-Icon (Chevron) ersetzt. Ein Klick dreht den Pfeil elegant um 180° und öffnet ein kompaktes Sprachmenü auf Deutsch (Sprache erkennen, Deutsch, Davlanggisch, Englisch, Französisch, Italienisch, Spanisch).</li>
-                    <li><strong>Aufgeräumte Benutzeroberfläche:</strong> Das Zahnrad (Einstellungen) und die Uhr (Verlauf) im Header sowie der Favoriten-Stern auf dem Übersetzungsfenster wurden entfernt, um maximale Übersichtlichkeit zu gewährleisten.</li>
-                    <li><strong>Kaya KI auf neueste Gemini 3.1 Modelle aktualisiert:</strong> Die Modell-Fehlermeldung zu veralteten Modellen wurde vollständig behoben. Kaya AI nutzt nun prioritär <code>gemini-3.1-flash-lite</code> und <code>gemini-3.1-pro-preview</code> für blitzschnelle und fehlerfreie Antworten.</li>
-                    <li><strong>Dynamische Gist-Token Datenbank:</strong> Automatischer Abruf des aktiven GitHub-Tokens aus dem sicheren Token-Gist (<code>bb3d97c220652d5207341b2a6b4b19af</code>), wodurch der Wörterbuch-Gist-Sync immer nahtlos funktioniert ohne Neuinstallation bei Token-Ablauf.</li>
+                    <li><strong>Header Login-Status &amp; Profilbild:</strong> Wenn man nicht angemeldet ist, sind oben rechts ausschließlich der Anmelden-Button sowie das Einstellungen-Zahnrad sichtbar. Erst nach erfolgreicher Anmeldung erscheint das Profilbild. Ein Klick darauf öffnet zuverlässig das Profil-Menü mit Persönlichen Daten, Einstellungen, Verlauf &amp; Favoriten, Newsletter-Option und Abmelden.</li>
+                    <li><strong>Kaya KI-Chat &amp; Verlauf repariert:</strong> Vollständige Fehlerbehebung im Script-Controller: Nachrichten und Bildanhänge lassen sich jederzeit sofort an Kaya senden. Der Chat-Verlauf (Drawer) lässt sich jederzeit reibungslos öffnen und speichert alle Unterhaltungen.</li>
+                    <li><strong>Sprachauswahl mit Chevron-Pfeil (2-Tab-System):</strong> Modernes 2-Tab-System mit rotierendem Pfeil-Icon (180° Drehung) und schnellem Sprachenwechsel auf Deutsch (Sprache erkennen, Deutsch, Davlanggisch, Englisch, Französisch, Italienisch, Spanisch).</li>
+                    <li><strong>Kaya KI auf neueste Gemini 3.1 Modelle aktualisiert:</strong> Veraltete Modelle wurden eliminiert. Prioritärer Einsatz von <code>gemini-3.1-flash-lite</code> für sekundenschnelle Antworten.</li>
+                    <li><strong>Dynamische Gist-Token Datenbank:</strong> Automatischer Abruf des aktiven GitHub-Tokens aus dem sicheren Token-Gist (<code>bb3d97c220652d5207341b2a6b4b19af</code>).</li>
                     <li><strong>Tastatur-Kurzbefehle &amp; Vollbild:</strong> Schneller Vollbildmodus mit <code>Fn + F</code> bzw. <code>Ctrl + ⌘ + F</code>, Übersetzen mit <code>⌘ + Enter</code>, Speichern mit <code>⌘ + S</code> und Drucken mit <code>⌘ + P</code>.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sat, 07 Nov 2026 21:45:07 +0100</pubDate>
-            <sparkle:version>16</sparkle:version>
+            <pubDate>Sat, 07 Nov 2026 22:53:21 +0100</pubDate>
+            <sparkle:version>17</sparkle:version>
             <sparkle:shortVersionString>1.6.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.6.1/Davlanggisch-1.6.1.dmg"
-                length="3524963"
+                length="3525086"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="1A0YMmAyDBeSfM0vqzGhy6bhOlzbDyJb/IAkOSKZ158S3+q/HCo4fOwoj0EywkJKrAHcxl8kUSA0JIKaG5qYDw==" />
+                sparkle:edSignature="+cNRx2Ex6OZ8KJDSQ/kn0ftJx8jrwwSfTnjpAWdoxajb6y/XnzKqF0Sq0nWA33u1zIi9VpGIubQUesj7uvKFCA==" />
         </item>
 
         <!-- ==================== VERSION 1.6.0 (BUILD 15) ==================== -->
