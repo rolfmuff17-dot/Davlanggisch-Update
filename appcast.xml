@@ -47,45 +47,48 @@
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.6.0/Davlanggisch-1.6.0.dmg"
-                length="3543235"
+                length="3523097"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="yjGsgZxsLobZZfOZgVzyi4z1uusZFRUl8iySswXxRaVlrNGtNkN00rUgARwvpPhjEndrjEBipV2n2viViLp/AQ==" />
+                sparkle:edSignature="KmaeYWfG9CnVCrPxSVpuwK5fPdHMdS8WYPMRvGh22QdwszfR/SfsvhYxZW33jqXwNc7VeaWy5vLhCuwOJ9IbBA==" />
         </item>
         <item>
             <title>Davlanggisch Version 1.5.1</title>
             <description><![CDATA[
-                <h2>Neuheiten in Davlanggisch 1.5.1:</h2>
+                <h2>Neuheiten &amp; Verbesserungen in Version 1.5.1 (Build 13):</h2>
                 <ul>
-                    <li><strong>Kaya KI-Engine auf Gemini 2.5 Flash aktualisiert:</strong> Die Konversation mit Kaya ist nun wieder vollständig funktionsfähig, ohne Fehlermeldungen über veraltete Modelle. Schnelle, zuverlässige Davlanggisch-Vorschläge.</li>
-                    <li><strong>100% Lückenlose Lokalisierung:</strong> Sämtliche Menüs, Kontextmenüs, Statusmeldungen, Tooltips und Einstellungen sind nun in allen fünf Sprachen (Deutsch, Davlanggisch, Französisch, Italienisch, Englisch) vollständig und muttersprachlich übersetzt.</li>
-                    <li><strong>Schlanke &amp; Bereinigte Menüleiste:</strong> Doppelte und überflüssige Menüeinträge wurden entfernt. Die Systemmenüleiste entspricht den Apple Human Interface Guidelines.</li>
-                    <li><strong>Erweiterte Tastenkürzel:</strong> Direkter Zugriff auf alle wichtigen Funktionen wie Einstellungen (<code>⌘ + ,</code>), Übersetzung leeren (<code>⌘ + K</code>) und Verlauf löschen (<code>⌥ + ⌘ + ⌫</code>).</li>
-                    <li><strong>Verfeinerte Sprach-Synthese &amp; Audio-Feedback:</strong> Flüssigere Davlanggisch-Lautschrift-Wiedergabe mit korrigierten Betonungsregeln.</li>
+                    <li><strong>Echtzeit-Wörterbuch direkt über GitHub-Raw (<code>gist.githubusercontent.com</code>):</strong> Das Wörterbuch wird bei jedem Laden der Seite sowie bei jeder Übersetzung und Suche verzögerungsfrei in Echtzeit über die GitHub-Raw-URL geladen. Frisch in Davlanggisch Docs gespeicherte Wörter stehen sofort für Übersetzungen und die neue Echtzeit-Wörterbuchsuche bereit.</li>
+                    <li><strong>Mehrsprachige App-Oberfläche (UI-Sprachauswahl in den Einstellungen):</strong> In den Einstellungen lässt sich die Sprache der gesamten Applikation umstellen (z. B. Français, Deutsch, English, Italiano, Español) – alle Menüs, Buttons und Beschriftungen wechseln sofort in die gewählte Sprache, während die Übersetzung weiterhin zuverlässig zwischen <strong>Deutsch</strong> und <strong>Davlanggisch</strong> erfolgt.</li>
+                    <li><strong>Sparkle Auto-Update Signatur aktualisiert (⌘U):</strong> Kryptografische Ed25519-Signatur vollständig signiert, sodass Updates über Command+U auf allen Macs reibungslos installiert werden.</li>
+                    <li><strong>Kaya KI universelle Sachfragen-Beantwortung:</strong> Kaya beantwortet allgemeine Fragen, Sacherklärungen und Unterhaltungen immer vollständig, freundlich und direkt auf Deutsch, ohne das Wörterbuch zu erwähnen oder Antworten zu verweigern.</li>
+                    <li><strong>Webseiten-Übersetzer (Beta) optimiert:</strong> Automatisches Voranstellen von https:// bei Webadressen, Erhöhung des Timeouts auf 25 Sekunden sowie nativer UTF-8 TextDecoder für einwandfreie Webseiten-Darstellung ohne fehlerhafte Zeichencodierungen.</li>
+                    <li><strong>9-Punkte App-Launcher &amp; Profil-Menü immer im Vordergrund:</strong> Das 9-Punkte-Menü sowie das Profil-Menü liegen auf oberster Ebene direkt im Document-Body (`z-index: 250000`).</li>
+                    <li><strong>Große Dateien (&gt; 1 GB), Speichereffizientes Disk-Streaming &amp; Google Workspace Export:</strong> Asynchrones Streaming in 12-MB-Blöcken, Prüfung des freien Speicherplatzes (+2 GB Puffer) und Google Drive Cloud-Export.</li>
                 </ul>
             ]]></description>
-            <pubDate>Fri, 06 Nov 2026 16:15:00 +0100</pubDate>
+            <pubDate>Fri, 30 Oct 2026 20:35:00 +0100</pubDate>
             <sparkle:version>13</sparkle:version>
             <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.5.1/Davlanggisch-1.5.1.dmg"
-                length="3432777"
+                length="3415062"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="Zg99iZk43xYv2h7W8iA3zC3aM9P5kQ1rT2uV8wX9yZ0bC4dE5fG6hI7jK8lM9nO0pQ1rS2tU3vW4xY5zA==" />
+                sparkle:edSignature="j0rLWwa0IpioKd94bc4pmN+RuGC8lrIYlGZI+lD6EsMcOkeTw1DBJr7O+Fl440vQ0OLhAxZOrlhQQfcrnZRZAQ==" />
         </item>
         <item>
             <title>Davlanggisch Version 1.5.0</title>
             <description><![CDATA[
-                <h2>Neuheiten in Davlanggisch 1.5.0:</h2>
+                <h2>Neuheiten &amp; Verbesserungen in Version 1.5.0 (Build 11):</h2>
                 <ul>
-                    <li><strong>✦ Kaya KI-Assistentin integriert:</strong> Deine persönliche KI für Davlanggisch. Frage nach Grammatik, Wortbedeutungen oder lass dir neue Wörter vorschlagen.</li>
-                    <li><strong>Vollständige Benutzeroberflächen-Lokalisierung:</strong> Die gesamte App ist nun in Deutsch, Davlanggisch, Französisch, Italienisch und Englisch verfügbar.</li>
-                    <li><strong>Erweiterte Wörterbuch-Statistiken:</strong> Detaillierte Einblicke in Wortschatz, Wortarten und Häufigkeiten.</li>
-                    <li><strong>macOS-Systemintegration:</strong> Tastatur-Kurzbefehle für schnelles Übersetzen aus jeder Anwendung.</li>
-                    <li><strong>Stabilitätsverbesserungen:</strong> Schnellere Ladezeiten und reduzierte Speichernutzung.</li>
+                    <li><strong>Gemini API-Schlüssel im Admin-Bereich geschützt:</strong> Der API-Schlüssel wurde aus den normalen Kaya-Einstellungen entfernt und ist ausschließlich in den Admin-Einstellungen für berechtigte Konten sichtbar und editierbar.</li>
+                    <li><strong>Kaya Multi-Turn Gedächtnis:</strong> Kaya erinnert sich aktiv an alle vorherigen Fragen und Antworten im Chatverlauf („Was hast du vorhin geantwortet?“).</li>
+                    <li><strong>Persönliche Benutzer-Erkennung:</strong> Kaya kennt den Namen des angemeldeten Benutzers aus dem Konto und spricht ihn auf Wunsch direkt mit Namen an.</li>
+                    <li><strong>Striktes Wörterbuch ohne Fantasiewörter:</strong> Kaya erfindet keine Wörter mehr, sondern stützt sich zu 100 % auf die verifizierten Gist-Wörter und System-Konjugationen (Vergangenheit / Präteritum). Unbekannte Begriffe werden wahrheitsgemäß als noch nicht im Wörterbuch deklariert.</li>
+                    <li><strong>Sicherer Konto-Wechsler:</strong> Nur noch echte Konten mit gültiger E-Mail-Adresse können im Profil-Wechsler gespeichert und gewechselt werden.</li>
+                    <li><strong>Vollständige Button- &amp; Fenster-Funktion:</strong> Alle Knöpfe, Schließen-Kreuze, Tastatur-Shortcuts (⌘Y, ⌘T), der Dateiupload (+), 3-Striche-Drawer und der Rechner funktionieren fehlerfrei.</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 26 Oct 2026 22:00:00 +0100</pubDate>
+            <pubDate>Mon, 26 Oct 2026 21:43:11 +0100</pubDate>
             <sparkle:version>11</sparkle:version>
             <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
@@ -93,19 +96,22 @@
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.5.0/Davlanggisch-1.5.0.dmg"
                 length="3086866"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="U50v7yG/JjH2TkhUvI+Yw4UqI4J+8K9eZ3W2N1bX5uP6yO4pL8qT9rS2vU3wX4yZ0aB1cD2eF3gH4iJ5kL6mA==" />
+                sparkle:edSignature="2ENwTZcmdDllq6qu7ijPtpRhc1ifhr5bvz8o8mdGCYV3fv3rNrarmwKSy85uLrHbUDLUP2j9/ipPO6ZiipeEBA==" />
         </item>
         <item>
             <title>Davlanggisch Version 1.4.1</title>
             <description><![CDATA[
-                <h2>Neuheiten in Davlanggisch 1.4.1:</h2>
+                <h2>Neuheiten &amp; Verbesserungen in Version 1.4.1 (Build 10):</h2>
                 <ul>
-                    <li>Fehlerbehebungen bei der Tastaturnavigation</li>
-                    <li>Optimierte Audio-Aussprache für komplexe Wortverbindungen</li>
-                    <li>Verbesserte Unterstützung für macOS Sonoma &amp; Sequoia</li>
+                    <li><strong>Einstellungen vollständig repariert:</strong> Alle Knöpfe, Schieberegler, Tabs, Offline-Wörterbuch-Downloads und Farb-/Layout-Speicherungen funktionieren jetzt für alle Nutzer zuverlässig.</li>
+                    <li><strong>Kaya KI &amp; Davlinggo Vollbild:</strong> Zuverlässiges Öffnen im immersiven Vollbildmodus direkt über das 9-Punkte-Waffel-Menü.</li>
+                    <li><strong>Davlinggo Lernprogramm im Duolingo-Stil:</strong> 4 abwechslungsreiche Übungstypen (Multiple Choice, Wortbausteine / Satzbaukasten, Eintippen mit Sonderzeichen-Knopf, Hörübungen mit Sprachausgabe), Streak-Zähler, Erfahrungspunkte (XP), 5 Herzen / Leben, Web Audio Soundeffekte und motivierende Feedback-Banner.</li>
+                    <li><strong>Vergangenheit-Grammatik erweitert:</strong> Vollständige Übersetzung deutscher Präteritum- und Perfektformen sowie davlanggischer Vergangenheitsformen (-ate / -at / -atet).</li>
+                    <li><strong>Knopf „In meiner Sprache schreiben“ repariert:</strong> Fehlerfreie Davlanggisch-zu-Deutsch Übersetzung bei Anwahl des Davlanggisch-Tabs.</li>
+                    <li><strong>Datenschutz für Erfinder &amp; Mitwirkende:</strong> Namen sind zum Schutz der Privatsphäre für nicht angemeldete Gäste verborgen.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sun, 25 Oct 2026 01:15:00 +0200</pubDate>
+            <pubDate>Sat, 24 Oct 2026 23:52:30 +0200</pubDate>
             <sparkle:version>10</sparkle:version>
             <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
@@ -113,19 +119,23 @@
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.4.1/Davlanggisch-1.4.1.dmg"
                 length="3078340"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="T81u9sW4fN2J1lK7yG3vA8pL4mN9qO0pQ1rS2tU3vW4xY5zA6bC7dE8fG9hI0jK1lM2nO3pQ4rS5tU6vW7xA==" />
+                sparkle:edSignature="DrNI0MrVX3k7/4C03aN1BWlSeQUo3jeYUKw0qCViCnnD+cSXQ8zFG5BFfiGac7j/8DMFMMn8juEnXxMloaAXCA==" />
         </item>
         <item>
             <title>Davlanggisch Version 1.4.0</title>
             <description><![CDATA[
-                <h2>Neuheiten in Davlanggisch 1.4.0:</h2>
+                <h2>Neuheiten &amp; Verbesserungen in Version 1.4.0 (Build 9):</h2>
                 <ul>
-                    <li>Interaktiver Wörterbuch-Editor mit Live-Vorschau</li>
-                    <li>Exportfunktionen für PDF, CSV und JSON</li>
-                    <li>Dunkelmodus-Anpassungen nach macOS-Designrichtlinien</li>
+                    <li><strong>Google Translate Seitenleiste (Drawer):</strong> 3-Striche-Menü oben links mit Schnellzugriff auf Übersetzer, Über Davlanggisch (mit Schöpfer-Team) und ausführlichen Datenschutz &amp; Nutzungsbedingungen.</li>
+                    <li><strong>9-Punkte App-Menü (Waffle Launcher):</strong> Zugriff auf <em>Kaya KI</em>, <em>Davlanggisch Rechner</em> (Zahlenrechner mit Live-Wortübersetzung &amp; Aussprache) und <em>Davlinggo</em> (Gamifiziertes Vokabel-Lernspiel mit XP &amp; Streaks).</li>
+                    <li><strong>Sprache automatisch erkennen:</strong> Echtzeit-Erkennung von Deutsch und Davlanggisch mit automatischer Sprachrichtungsumschaltung.</li>
+                    <li><strong>Kaya Bildgenerierung &amp; Vision-Training:</strong> Echte prozedurale Canvas-Bilderstellung sowie interaktives Bild-Erkennungs- und Vokabel-Trainingsspiel.</li>
+                    <li><strong>Erweitertes Design Studio &amp; Aufräumen:</strong> Individuelle Farb-Paletten, Layout-Anpassung, Speichern und Zurücksetzen in aufgeräumten Einstellungen.</li>
+                    <li><strong>Berechtigungs-Schutz für Gäste:</strong> Kaya KI, Autoren-Einblicke und Design Studio sind geschützt für angemeldete Nutzer mit sofortigem Login-Hinweis.</li>
+                    <li><strong>Optimiertes Vollbild-Layout:</strong> Modernes 2-Spalten-Design ohne Leerflächen im Vollbildmodus und runde Google-Translate-Buttons für Verlauf &amp; Favoriten.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sun, 18 Oct 2026 17:00:00 +0200</pubDate>
+            <pubDate>Sun, 18 Oct 2026 16:56:14 +0200</pubDate>
             <sparkle:version>9</sparkle:version>
             <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
@@ -133,18 +143,21 @@
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.4.0/Davlanggisch-1.4.0.dmg"
                 length="3062134"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="S70t8rV3eM1I0kJ6xF2uZ7oK3lM8pN9oP0qR1sT2uV3wX4yZ5aB6cD7eF8gH9iJ0kL1mN2oP3qR4sT5uV6wA==" />
+                sparkle:edSignature="Jof6R0AmpU8K+P55ZaiuFEEiiPK3fL+4gv/NeyEOQPUusSWNyWFbZ0QomcuCvNDXP8Y8hzS0cgXnMdQILkDODQ==" />
         </item>
         <item>
             <title>Davlanggisch Version 1.3.4</title>
             <description><![CDATA[
-                <h2>Verbesserungen in Version 1.3.4:</h2>
+                <h2>Neuheiten &amp; Verbesserungen in Version 1.3.4 (Build 8):</h2>
                 <ul>
-                    <li>Leistungsoptimierung bei großen Textmengen</li>
-                    <li>Automatische Korrektur von typischen Tippfehlern</li>
+                    <li><strong>Aufgeräumte Menüs:</strong> Einstellungen und Verlauf sind im oberen Header bei angemeldetem Konto ausgeblendet.</li>
+                    <li><strong>Kaya KI – Multimodale Bildanalyse (Vision):</strong> Schicke Kaya Bilder über das Kamera-Symbol, Drag &amp; Drop oder Cmd+V.</li>
+                    <li><strong>Kaya KI – Bildgenerierung:</strong> Kaya zeichnet und generiert neue Bilder.</li>
+                    <li><strong>Kaya KI – Geschichten-Synthese:</strong> Dynamische Geschichten basierend auf Mythen und Davlanggisch-Vokabeln.</li>
+                    <li><strong>Kaya KI – Python-Programmierung:</strong> Kaya programmiert vollständige Python-Skripte mit Highlighting.</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 12 Oct 2026 22:30:00 +0200</pubDate>
+            <pubDate>Mon, 12 Oct 2026 22:18:11 +0200</pubDate>
             <sparkle:version>8</sparkle:version>
             <sparkle:shortVersionString>1.3.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
@@ -152,18 +165,18 @@
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.3.4/Davlanggisch-1.3.4.dmg"
                 length="2834024"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="R69s7qU2dL0HzI5wE1tY6nJ2kL7oM8nO9pQ0rS1tU2vW3xY4zA5bC6dE7fG8hI9jK0lL1mN2oP3qR4sT5uVA==" />
+                sparkle:edSignature="q58BkLoWWY+/S3UaMpG+a5movwFrNCNzmrRg0YIVilluyiHVcmkctBd3QhzHrtha/y7r7f5Scs4lyM6Vui1/Dw==" />
         </item>
         <item>
             <title>Davlanggisch Version 1.3.3</title>
             <description><![CDATA[
-                <h2>Verbesserungen in Version 1.3.3:</h2>
+                <h2>Neuheiten in Version 1.3.3:</h2>
                 <ul>
-                    <li>Verfeinerung der automatischen Spracherkennung</li>
-                    <li>Fehlerkorrekturen bei der Zwischenablage-Synchronisation</li>
+                    <li>Verbesserte Offline-Synchronisation und erweiterte Vokabellisten.</li>
+                    <li>Fehlerkorrekturen bei der Audio-Aussprache und Wort-Segmentierung.</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 12 Oct 2026 21:30:00 +0200</pubDate>
+            <pubDate>Mon, 12 Oct 2026 21:20:17 +0200</pubDate>
             <sparkle:version>7</sparkle:version>
             <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
@@ -171,18 +184,18 @@
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.3.3/Davlanggisch-1.3.3.dmg"
                 length="2823621"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="Q58r6pT1cK9GyH4vD0sX5mI1jK6nL7mN8oP9qR0sT1uV2wX3yZ4aB5cD6eF7gH8iJ9kK0lL1mN2oP3qR4sTA==" />
+                sparkle:edSignature="255jZAH8e6ApOKzrk9cHguY+nrNTP2NzBGguOeoZfC84/BJWjzSo15KsLyaer9DDrB+6ruACMglFZyptaWWyDA==" />
         </item>
         <item>
             <title>Davlanggisch Version 1.3.2</title>
             <description><![CDATA[
-                <h2>Verbesserungen in Version 1.3.2:</h2>
+                <h2>Neuheiten in Version 1.3.2:</h2>
                 <ul>
-                    <li>Anpassung der Schriftgrößen für Retina-Displays</li>
-                    <li>Schnellere Suchfunktion im integrierten Wörterbuch</li>
+                    <li>Stabilitäts-Updates für native macOS WebKit-Integration.</li>
+                    <li>Erweiterte Lautschrift-Generierung für seltene Davlanggisch-Wortstämme.</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 12 Oct 2026 16:30:00 +0200</pubDate>
+            <pubDate>Mon, 12 Oct 2026 16:15:35 +0200</pubDate>
             <sparkle:version>6</sparkle:version>
             <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
@@ -190,18 +203,18 @@
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.3.2/Davlanggisch-1.3.2.dmg"
                 length="3105681"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="P47q5oS0bJ8FxG3uC9rW4lH0iJ5mK6lL7mN8oP9qR0sT1uV2wX3yZ4aB5cD6eF7gH8iJ9kK0lL1mN2oP3qRA==" />
+                sparkle:edSignature="xfJo6rWW34qYjcHSY2wLzHwa3j0xEemJwkJ08JYvfzB2+q3Te5GAo+v+pWx4bItaLaF/aGx5romKG+Wh4MAWDA==" />
         </item>
         <item>
             <title>Davlanggisch Version 1.3.1</title>
             <description><![CDATA[
-                <h2>Verbesserungen in Version 1.3.1:</h2>
+                <h2>Neuheiten in Version 1.3.1:</h2>
                 <ul>
-                    <li>Behebung eines Darstellungsfehlers im Übersetzungsverlauf</li>
-                    <li>Verbesserte Tastenkürzel für schnelles Kopieren</li>
+                    <li>Fehlerbehebungen bei der Tastatureingabe von Sonderzeichen.</li>
+                    <li>Optimierte Menüleiste mit Shortcuts für schnelles Übersetzen.</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 12 Oct 2026 13:15:00 +0200</pubDate>
+            <pubDate>Mon, 12 Oct 2026 13:06:08 +0200</pubDate>
             <sparkle:version>5</sparkle:version>
             <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
@@ -209,19 +222,18 @@
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.3.1/Davlanggisch-1.3.1.dmg"
                 length="3106849"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="O36p4nR9aI7EwF2tB8qV3kG9hI4lJ5kK6lL7mN8oP9qR0sT1uV2wX3yZ4aB5cD6eF7gH8iJ9kK0lL1mN2oPA==" />
+                sparkle:edSignature="xwrbPGfIk/q60tsguRB2mY8qZ9JjZn7GFIRqJioJADic/mSrqP5WXSclUzaPPEUOtIv7j9YLPR6WTiFjtIWBBQ==" />
         </item>
         <item>
             <title>Davlanggisch Version 1.3.0</title>
             <description><![CDATA[
-                <h2>Neuheiten in Davlanggisch 1.3.0:</h2>
+                <h2>Neuheiten in Version 1.3.0:</h2>
                 <ul>
-                    <li>Integrierter Übersetzungsverlauf mit Suchfunktion</li>
-                    <li>Favoriten-System für häufig genutzte Ausdrücke</li>
-                    <li>Neues Benutzeroberflächen-Design mit verbesserter Übersicht</li>
+                    <li>Einführung der integrierten Zahlen- und Rechenmodul-Logik.</li>
+                    <li>Synchronisierung mit dem offiziellen GitHub-Gist Wörterbuchbestand.</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 12 Oct 2026 11:45:00 +0200</pubDate>
+            <pubDate>Mon, 12 Oct 2026 11:35:30 +0200</pubDate>
             <sparkle:version>4</sparkle:version>
             <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
@@ -229,19 +241,18 @@
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.3.0/Davlanggisch-1.3.0.dmg"
                 length="3112450"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="N25o3mQ8zH6DvE1sA7pU2jF8gH3kI4jJ5kK6lL7mN8oP9qR0sT1uV2wX3yZ4aB5cD6eF7gH8iJ9kK0lL1mNA==" />
+                sparkle:edSignature="tE9vh3+8QjZ/m+fAsWoYnqRoZ2gu0l6x4AYocrA+9DuYdQE93sArDyVYUNnUMQ5uI0bLKwmSZtAZQVe7HSoHDw==" />
         </item>
         <item>
             <title>Davlanggisch Version 1.2.0</title>
             <description><![CDATA[
-                <h2>Neuheiten in Davlanggisch 1.2.0:</h2>
+                <h2>Neuheiten in Version 1.2.0:</h2>
                 <ul>
-                    <li>Aussprache-Funktion mit Audio-Wiedergabe</li>
-                    <li>Erweitertes Wörterbuch um über 100 neue Begriffe</li>
-                    <li>Leistungsverbesserungen beim Start der Anwendung</li>
+                    <li>Erhöhung der Übersetzungsgenauigkeit für zusammengesetzte Hauptwörter.</li>
+                    <li>Überarbeitetes User Interface mit dunklem und hellem Theme.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sun, 11 Oct 2026 22:30:00 +0200</pubDate>
+            <pubDate>Sun, 11 Oct 2026 22:21:26 +0200</pubDate>
             <sparkle:version>3</sparkle:version>
             <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
@@ -249,19 +260,18 @@
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.2.0/Davlanggisch-1.2.0.dmg"
                 length="2933390"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="M14n2lP7yG5CuD0rz6oT1iE7fG2jH3iI4jJ5kK6lL7mN8oP9qR0sT1uV2wX3yZ4aB5cD6eF7gH8iJ9kK0lLA==" />
+                sparkle:edSignature="sfgGm2/hS2Jidke6MJvafGMAJU/pbm2iSiFQt9U4TaILD3fpkAS/ZvSAXXw6FuwGcXG2muLkZoN/1uK5+uaFDQ==" />
         </item>
         <item>
             <title>Davlanggisch Version 1.1.0</title>
             <description><![CDATA[
-                <h2>Neuheiten in Davlanggisch 1.1.0:</h2>
+                <h2>Neuheiten in Version 1.1.0:</h2>
                 <ul>
-                    <li>Erstes großes Feature-Update mit automatischer Vervollständigung</li>
-                    <li>Verbesserte Übersetzungsgenauigkeit für grammatikalische Sonderformen</li>
-                    <li>Fehlerkorrekturen bei der Zwischenablage</li>
+                    <li>Integration des Sparkle 2 Auto-Update-Frameworks mit Ed25519-Signatur.</li>
+                    <li>Erste universelle Binärdatei für Apple Silicon (M-Chips) und Intel-Macs.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sun, 11 Oct 2026 21:15:00 +0200</pubDate>
+            <pubDate>Sun, 11 Oct 2026 21:03:46 +0200</pubDate>
             <sparkle:version>2</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
@@ -269,29 +279,27 @@
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.1.0/Davlanggisch-1.1.0.dmg"
                 length="3831335"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="4qfV3jZ9kW8lM7nO6pQ5rS4tU3vW2xY1zA0bC9dE8fG7hI6jK5lM4nO3pQ2rS1tU0vW9xY8zA7bC6dE5fGA==" />
+                sparkle:edSignature="TvXCdFuQnalS1rCv1pQDguaTWuEf878SCaCzZS43eaU8DqrKPGSEtNDbpNrreAMiuqwslXVr1J487rYjzRXwCg==" />
         </item>
         <item>
             <title>Davlanggisch Version 1.0.0</title>
             <description><![CDATA[
-                <h2>Willkommen bei Davlanggisch 1.0.0!</h2>
-                <p>Die erste offizielle Version des Davlanggisch Wörterbuch- &amp; Übersetzer-Clients für macOS.</p>
+                <h2>Erstes offizielles Release: Davlanggisch Wörterbuch &amp; Übersetzer 1.0.0</h2>
                 <ul>
-                    <li>Übersetzung zwischen Deutsch und Davlanggisch in beide Richtungen</li>
-                    <li>Umfangreiches integriertes Wörterbuch</li>
-                    <li>Schnelle und native macOS-Benutzeroberfläche</li>
-                    <li>Automatische Updates über Sparkle</li>
+                    <li>Offizielle native macOS Applikation für die Kunstsprache Davlanggisch.</li>
+                    <li>Wörterbuch mit Tausenden Begriffen, Lautschrift und Sprachausgabe.</li>
+                    <li>Kaya KI-Assistent zur Begleitung beim Erlernen und Erforschen der Sprache.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sun, 11 Oct 2026 12:00:00 +0200</pubDate>
+            <pubDate>Sun, 11 Oct 2026 13:58:16 +0200</pubDate>
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.0.0/Davlanggisch-1.0.0.dmg"
-                length="3523097"
+                length="4223640"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="O40fP3h+Bv16v8G9P3mO4rS2tU1vW0xY9zA8bC7dE6fG5hI4jK3lM2nO1pQ0rS9tU8vW7xY6zA5bC4dE3fGA==" />
+                sparkle:edSignature="l+9l7rRUl403+p9KYM0El+pZnU4VWz3t5ORfBYD9xxQCkNAtdrUFxrrgOKhryd3cACTtbIfcqV85iuv7/mx3Cw==" />
         </item>
-    </channel>
+</channel>
 </rss>
